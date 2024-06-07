@@ -1,0 +1,317 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.header-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -300%);
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+}
+
+.center-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -430%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+/* Navbar */
+.name {
+  font-size: 20pt;
+  margin: 0;
+  color: black;
+  text-decoration-color: white;
+}
+
+.position {
+  margin: 3px 0 0 2px;
+  color: rgba(0, 0, 0, 0.296);
+}
+
+.nav-item {
+  padding: 0px 20px 0px 20px;
+}
+
+.nav-item a {
+  padding: 14px 0;
+}
+
+/* .navbar-nav {
+  display: block;
+} */
+
+.navbar-nav .nav-item:first-child,
+.navbar-nav .nav-item:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.173);
+  border-left: 1px solid rgba(0, 0, 0, 0.173);
+}
+
+.nav-item {
+  border-right: 1px solid rgba(0, 0, 0, 0.173);
+  border-left: 1px solid rgba(0, 0, 0, 0.173);
+}
+
+.position {
+  margin: 3px 0 0 65px;
+  color: rgba(0, 0, 0, 0.296);
+}
+
+#container-img {
+  padding: 0 100px;
+}
+
+.img-avatar {
+  position: absolute;
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid #ffffff;
+  left: 45%;
+  top: -55%;
+}
+
+/* Info-1 */
+/* .container .row {
+  background-color: rgba(0, 0, 0, 0.103);
+  padding: 30px 15px 0 15px;
+} */
+
+.container .row .col {
+  padding: 10px;
+}
+
+/* .container .row .col:last-child {
+  background-color: rgba(0, 0, 0, 0.055);
+} */
+
+.title-1 {
+  font-size: 20pt;
+}
+
+.title-2 {
+  font-size: 20pt;
+  margin-left: 10px;
+}
+
+.border-start #infoForm input {
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.show-more,
+.show-less,
+.submit-button {
+  padding: 5px 10px;
+  background-color: rgb(53, 60, 207);
+  color: white;
+  border-radius: 5px;
+}
+
+.show-less {
+  margin-top: 25px;
+}
+
+.icon {
+  color: rgb(92, 193, 221);
+  margin-top: 25pt;
+}
+
+i {
+  color: rgb(92, 193, 221);
+}
+
+/* Info-2 */
+.container-fluid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.col-3 {
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  padding: 5px 10px 5px 5px;
+}
+
+.small-header {
+  font-size: 20pt;
+}
+
+.small {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.none-ul {
+  list-style-type: none;
+}
+
+.ul-gach {
+  list-style-type: none;
+}
+
+.ul-tong {
+  padding-left: 10px;
+}
+
+.blue {
+  color: #ffffff;
+  font-size: 10pt;
+  border: 1px solid rgb(92, 193, 221);
+  border-radius: 5px;
+  background-color: rgb(92, 193, 221);
+  padding: 2px 4px;
+}
+
+.kho {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 6px;
+}
+
+.kho .ic {
+  font-size: 20px; /* Đặt kích thước cho icon */
+  color: rgb(92, 193, 221); /* Đặt màu cho icon */
+  padding: 10px;
+  border: 2px solid rgb(92, 193, 221); /* Đặt viền cho icon */
+  border-radius: 50%; /* Làm cho viền trở nên tròn */
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 30px; /* Căn giữa icon theo chiều dọc */
+}
+
+.hobby {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10pt;
+}
+/* .kho {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+} */
+
+.lui {
+  padding-left: 35px;
+}
+
+.skill {
+  display: flex;
+  gap: 10px;
+}
+
+.lined {
+  width: 50px; /* Độ dài của dấu gạch */
+  height: 5px; /* Độ cao của dấu gạch */
+  background-color: rgb(92, 193, 221); /* Màu sắc của dấu gạch */
+  margin: 5px 0; /* Khoảng cách giữa các dấu gạch */
+}
+
+.non-line {
+  width: 50px; /* Độ dài của dấu gạch */
+  height: 5px; /* Độ cao của dấu gạch */
+  background-color: #0000001c; /* Màu sắc của dấu gạch */
+  margin: 5px 0; /* Khoảng cách giữa các dấu gạch */
+}
+
+/* Certificate */
+.body-3-header {
+  margin-left: 10px;
+  font-size: 20pt;
+}
+
+/* Project */
+.row-3 .col:first-child {
+  color: #ffffff;
+  font-size: 10pt;
+  border: 1px solid rgb(92, 193, 221);
+  border-radius: 10px;
+  background-color: rgb(92, 193, 221);
+  padding: 3px 12px;
+  margin: 5px 0;
+}
+
+.px-4 .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: 75px 1fr 1fr;
+  gap: 40px;
+  justify-items: center;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: rgba(0, 0, 0, 0.144);
+}
+
+.px-4 .row-2 {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 40px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: rgba(0, 0, 0, 0.144);
+}
+
+.body-4-header {
+  margin-left: 100px;
+  font-size: 20pt;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 14pt;
+}
+
+/* Footer */
+.footer {
+  width: 1500px;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.055);
+  margin-top: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  color: rgba(0, 0, 0, 0.347);
+}
+
+.footer-content i {
+  color: rgb(92, 193, 221);
+}
+
+/* Function */
+.hide {
+  display: none;
+}
